@@ -1,13 +1,6 @@
-#esempio {
-  width: 300px; /*content*/
-  padding: 50px; /*outside of content*/
-  border: 15px solid green; /*outside of padding*/
-  margin: 20px; /*outside of border*/
-}
-
 body {
   box-sizing: border-box;
-  font-family: 'Carlito', sans-serif;
+  font-family: "Carlito", sans-serif;
   margin: 0px;
 }
 
@@ -113,7 +106,6 @@ div.ricerca input {
   border-width: 0.01em;
   border-radius: 0.2em;
 }
-
 /*informazioni*/
 
 a {
