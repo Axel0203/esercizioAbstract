@@ -1,0 +1,183 @@
+#esempio {
+  width: 300px; /*content*/
+  padding: 50px; /*outside of content*/
+  border: 15px solid green; /*outside of padding*/
+  margin: 20px; /*outside of border*/
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Carlito', sans-serif;
+  margin: 0px;
+}
+
+/*header style*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  height: 7em;
+}
+header div.logo {
+  color: #fff;
+  margin-left: 8%;
+  width: 22em;
+  display: flex;
+  justify-content: space-around;
+}
+
+header div.logo svg {
+  margin: auto;
+}
+
+header div.logo p {
+  margin: auto;
+  font-size: 2em;
+}
+header div.logo p span {
+  font-weight: bold;
+}
+
+header div.buttons {
+  margin-left: auto;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30em;
+  display: flex;
+  justify-content: space-around;
+}
+
+header div.buttons button {
+  height: 2em;
+  font-size: 2em;
+  border-radius: 0.3em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+header div.lines svg {
+  width: 80%;
+  height: 80%;
+}
+
+@media (max-width: 850px) {
+  header div.buttons {
+    display: none;
+  }
+}
+
+@media (min-width: 850px) {
+  header div.lines {
+    display: none;
+  }
+}
+
+header div button#submit {
+  background-color: rgb(37, 36, 36);
+  color: white;
+  border-width: 0.01em;
+  border-color: #fff;
+}
+
+header div button#sign {
+  background-color: #4c5fd5;
+  color: rgb(255, 255, 255);
+  border-width: 0;
+}
+
+/*sezione how can we help*/
+
+div.ricerca {
+  background-color: #dadbf1;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.ricerca h1 {
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 6em;
+}
+
+div.ricerca input {
+  margin: auto;
+  font-size: 2em;
+  width: 60%;
+  height: 2em;
+  padding: 1em;
+  border-color: #000000;
+  border-width: 0.01em;
+  border-radius: 0.2em;
+}
+
+/*informazioni*/
+
+a {
+  text-decoration: none;
+  color: #4c5fd5;
+}
+div.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+div.info div.sezione {
+  display: flex;
+  width: 40em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+div.info div.sezione picture img {
+  max-width: 6em;
+  max-height: 6em;
+  margin-right: 2em;
+  margin-left: 0;
+}
+
+div.info div.sezione div {
+  font-size: 1.6em;
+}
+
+div.info div.sezione div h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 32em;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+footer div a {
+  color: #fff;
+}
+
+footer div.copyright {
+  align-self: flex-end;
+}
+
+footer div.copyright p {
+  margin: 0.1em;
+}
